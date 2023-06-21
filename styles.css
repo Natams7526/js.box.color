@@ -1,0 +1,35 @@
+
+body,select,div {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+body{
+    background-color: rgb(210, 232, 233);
+    display: inline-block;
+   
+}
+select{
+    height: 70px;
+    width: 140px;
+    border-radius: 2px;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    background: red;
+    border: 2px solid black;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 15px;
+
+
+}
